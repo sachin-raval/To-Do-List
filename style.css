@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    background-color: #022c3f;
+}
+
+main{
+    max-width: 1280px;
+    height: 100vh;
+    background-color: #e0faf9;
+    margin: auto;
+}
+.addTask{
+    padding: 25px 0;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+.addTask input{
+    width: 850px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.addTask button{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #09daff;
+}
+
+.addTask button:hover{
+    background-color: #09daff80;
+}
+
+.task{
+    max-width: 930px;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.task div{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #58d6ec;
+}
+.task div p, .task div span{
+    cursor: pointer;
+}
+
+.completeTask{
+    text-decoration: line-through;
+}
+
+/*------------- Footer Section ----------------*/
+footer{
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #022c3f;
+}
+
+footer p strong{
+    color: #09daff;
+}
+footer p strong:hover{
+    color: #09daffcc;
+}
